@@ -13,7 +13,7 @@ class Reticulado(object):
 	def __init__(self):
 		super(Reticulado, self).__init__()
 		
-		self.xyz = np.zeros((0,3), dtype=np.double)
+		self.xyz = np.zeros((0,3), dtype = np.double)
 		self.Nnodos = 0
 		self.barras = []
 		self.cargas = {}
