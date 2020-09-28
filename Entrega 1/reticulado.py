@@ -7,7 +7,7 @@ Created on Sat Sep 26 13:00:50 2020
 
 import numpy as np
 
-class Reticulado(object):
+class Reticulado(object) :
 	"""Define un reticulado"""
 
 	def __init__(self):
